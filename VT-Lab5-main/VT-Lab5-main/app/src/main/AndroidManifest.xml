@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MonoromApp"
+        android:theme="@style/Theme.VanthaApp"
         tools:targetApi="31">
 
         <!-- LoginActivity is now the LAUNCHER (first screen) -->
