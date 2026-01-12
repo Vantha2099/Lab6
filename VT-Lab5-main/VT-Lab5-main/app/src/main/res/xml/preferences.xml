@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- This layout is automatically used by PreferenceFragmentCompat -->
+    <!-- The actual preferences are loaded from res/xml/preferences.xml -->
+
+</androidx.preference.PreferenceScreen>

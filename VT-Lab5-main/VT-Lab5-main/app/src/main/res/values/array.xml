@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>KHR</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Food &amp; Drink</item>
+        <item>Transport</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Coffee Cat</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Language preference arrays -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Khmer</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>km</item>
+    </string-array>
+</resources>

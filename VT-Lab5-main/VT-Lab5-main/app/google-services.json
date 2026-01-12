@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875174193912",
+    "project_id": "monoromapp-project",
+    "storage_bucket": "monoromapp-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875174193912:android:23676397bf72fb509c690d",
+        "android_client_info": {
+          "package_name": "com.example.monoromapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY8hFNaguhvkZKL-LOphje-F89eCdWIHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875174193912:android:4fbdad9d8e20259e9c690d",
+        "android_client_info": {
+          "package_name": "com.example.vantha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY8hFNaguhvkZKL-LOphje-F89eCdWIHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

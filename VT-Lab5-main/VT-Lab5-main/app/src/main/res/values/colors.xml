@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="teal_200">#FF80CBC4</color>
+
+    <color name="dark_gray">#FF121212</color>
+    <color name="dark_surface">#FF1F1F1F</color>
+
+    <!-- Ocean Blue Theme Colors -->
+    <color name="colorCoffeePrimary">#FF1565C0</color>
+    <color name="colorCoffeeDark">#FF0D47A1</color>
+    <color name="colorCreamLight">#FFE3F2FD</color>
+
+    <color name="colorCoffeeMedium">#FF1976D2</color>
+    <color name="colorCoffeeLight">#FF42A5F5</color>
+
+    <!-- Category icon colors -->
+    <color name="categoryColor1">#FF1976D2</color>
+    <color name="categoryColor2">#FFFF6F00</color>
+    <color name="categoryColor3">#FF388E3C</color>
+    <color name="categoryColor4">#FF7B1FA2</color>
+    <color name="categoryColor5">#FFC62828</color>
+    <color name="categoryColor6">#FF00838F</color>
+</resources>

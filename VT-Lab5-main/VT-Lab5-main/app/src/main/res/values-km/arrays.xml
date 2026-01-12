@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>KHR</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>អាហារ និងភេសជ្ជៈ</item>
+        <item>ការដឹកជញ្ជូន</item>
+        <item>សេវាសាធារណៈ</item>
+        <item>កម្សាន្ត</item>
+        <item>Coffee Cat</item>
+        <item>ផ្សេងៗ</item>
+    </string-array>
+</resources>

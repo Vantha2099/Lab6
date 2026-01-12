@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="form_title">បន្ថែមការចំណាយថ្មី</string>
+
+    <string name="my_name">Roar Coffee</string>
+    <string name="title_home">គ្រប់គ្រងការចំណាយ Coffee Cat របស់អ្នក, %1$s</string>
+    <string name="summary_last_expense">ការចំណាយ Coffee Cat ចុងក្រោយរបស់ខ្ញុំគឺ %1$s %2$s</string>
+    <string name="summary_initial">មិនទាន់មានការចំណាយត្រូវបានកត់ត្រានៅឡើយទេ។</string>
+
+    <string name="button_add_new_expense">បន្ថែមការចំណាយថ្មី</string>
+    <string name="button_view_detail">មើលព័ត៌មានលម្អិត</string>
+    <string name="button_add_expense">បន្ថែមការចំណាយ</string>
+    <string name="button_back_to_add">បន្ថែមការចំណាយថ្មី</string>
+    <string name="back_to_home">ថយក្រោយ</string>
+    <string name="button_add_category">បន្ថែមប្រភេទថ្មី</string>
+
+    <string name="label_amount">ចំនួនទឹកប្រាក់</string>
+    <string name="hint_amount">បញ្ចូលចំនួនទឹកប្រាក់</string>
+    <string name="label_currency">រូបិយប័ណ្ណ</string>
+    <string name="label_category">ប្រភេទ</string>
+    <string name="label_date">កាលបរិច្ឆេទបង្កើត</string>
+    <string name="hint_date">ជ្រើសរើសកាលបរិច្ឆេទ</string>
+    <string name="label_remark">កំណត់សម្គាល់</string>
+    <string name="hint_remark">បន្ថែមព័ត៌មានលម្អិតឬកំណត់ចំណាំអំពីការចំណាយ</string>
+    <string name="currency_usd">USD</string>
+    <string name="currency_khr">KHR</string>
+
+    <string name="logo_description">រូបសញ្ញាកម្មវិធី</string>
+    <string name="error_empty_amount">សូមបញ្ចូលចំនួនទឹកប្រាក់។</string>
+    <string name="error_invalid_amount">សូមបញ្ចូលលេខត្រឹមត្រូវ។</string>
+    <string name="expense_saved_message">បានរក្សាទុកការចំណាយ %1$s %2$s ដោយជោគជ័យ!</string>
+
+    <string name="detail_title">ព័ត៌មានលម្អិតការចំណាយ</string>
+    <string name="detail_amount">ចំនួនទឹកប្រាក់: %1$s %2$s</string>
+    <string name="detail_currency">រូបិយប័ណ្ណ: %1$s</string>
+    <string name="detail_category">ប្រភេទ: %1$s</string>
+    <string name="detail_date">កាលបរិច្ឆេទបង្កើត: %1$s</string>
+    <string name="detail_remark">កំណត់សម្គាល់: %1$s</string>
+</resources>

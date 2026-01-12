@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="form_title">Add New Expense</string>
+
+    <string name="my_name">Roar Coffee</string>
+    <string name="title_home">Manage Your Coffee Cat Expenses, %1$s</string>
+    <string name="summary_last_expense">My last Coffee Cat expense was %1$s %2$s</string>
+    <string name="summary_initial">No expenses recorded yet.</string>
+
+    <string name="button_add_new_expense">Add New Expense</string>
+    <string name="button_view_detail">View Detail Expense</string>
+    <string name="button_add_expense">Add Expense</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="button_back_to_add">Add New Expense</string>
+    <string name="button_add_category">Add new category</string>
+
+    <string name="label_amount">Amount</string>
+    <string name="hint_amount">Enter amount</string>
+    <string name="label_currency">Currency</string>
+    <string name="label_category">Category</string>
+    <string name="label_date">Created Date</string>
+    <string name="hint_date">Select date</string>
+    <string name="label_remark">Remark</string>
+    <string name="hint_remark">Add details or notes about the expense</string>
+    <string name="currency_usd">USD</string>
+    <string name="currency_khr">KHR</string>
+
+    <string name="logo_description">App Logo/Branding</string>
+    <string name="error_empty_amount">Please enter an amount.</string>
+    <string name="error_invalid_amount">Please enter a valid number.</string>
+    <string name="expense_saved_message">Expense of %1$s %2$s saved successfully!</string>
+
+    <string name="detail_title">Expense Details</string>
+    <string name="detail_amount">Amount: %1$s %2$s</string>
+    <string name="detail_currency">Currency: %1$s</string>
+    <string name="detail_category">Category: %1$s</string>
+    <string name="detail_date">Created Date: %1$s</string>
+    <string name="detail_remark">Remark: %1$s</string>
+
+    <!-- Add these for expense list -->
+    <string name="expense_history_title">Expense History</string>
+    <string name="total_expenses">Total: %1$d expenses</string>
+    <string name="empty_state_title">No expenses yet</string>
+    <string name="empty_state_subtitle">Start tracking your Coffee Cat expenses!</string>
+</resources>

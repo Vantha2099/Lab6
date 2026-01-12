@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".AddExpenseActivity">
+
+        <ImageView
+            android:id="@+id/logo_add"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/form_title"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceHeadlineMedium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo_add" />
+
+        <TextView
+            android:id="@+id/label_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_amount"
+            style="@style/Widget.App.TextView.Label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_title" />
+
+        <EditText
+            android:id="@+id/input_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="currency"
+            android:hint="@string/hint_amount"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_amount"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/label_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_currency"
+            style="@style/Widget.App.TextView.Label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/input_amount" />
+
+        <Spinner
+            android:id="@+id/spinner_currency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/currencies"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_currency" />
+
+        <TextView
+            android:id="@+id/label_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_category"
+            style="@style/Widget.App.TextView.Label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinner_currency" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/expense_categories"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toStartOf="@id/button_add_category"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_category" />
+
+        <ImageButton
+            android:id="@+id/button_add_category"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="@string/button_add_category"
+            android:src="@drawable/ic_add"
+            app:layout_constraintBottom_toBottomOf="@id/spinner_category"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/spinner_category"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/label_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_date"
+            style="@style/Widget.App.TextView.Label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinner_category" />
+
+        <EditText
+            android:id="@+id/input_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:hint="@string/hint_date"
+            android:inputType="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_date"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            android:id="@+id/label_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_remark"
+            style="@style/Widget.App.TextView.Label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/input_date" />
+
+        <EditText
+            android:id="@+id/input_remark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="@string/hint_remark"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="3"
+            android:maxLines="5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_remark"
+            tools:ignore="Autofill,LabelFor" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/button_add_expense"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/input_remark" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
