@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
     companion object {
-        const val PREFS_NAME = "MonoromPrefs"
+        const val PREFS_NAME = "vanthaPrefs"
         const val PREF_LANG_CODE = "language_code"
         const val DEFAULT_LANG_CODE = "en"
     }
